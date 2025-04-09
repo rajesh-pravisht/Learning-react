@@ -1,8 +1,8 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* padding: 2rem; */
+  /* text-align: center; */
 }
 
 .logo {
@@ -39,4 +39,35 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.heading-two :first-child{
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+  width: 70%;
+  height: 600px;
+  background: #000;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.heading, .create{
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+.input{
+  width: 250px;
+}
+.btn{
+  padding:1px 10px;
+}
+
+.todo{
+  margin-left: 280px;
 }
