@@ -3,13 +3,13 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 // import axios from 'axios'
-import Dashboard from './Dashboard'
+import Todo from './Todo'
 
 function App() {
 
   return (
     <>
-    <Dashboard/>
+    <Todo/>
     </>
   )
 }
